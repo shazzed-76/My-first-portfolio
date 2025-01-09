@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 /* font style for body */
 .default-font-style {
     font-family: "Open Sans", serif;
@@ -21,6 +22,22 @@
     color: #474747;
 }
 
+.Dark-3 {
+    color: #757575;
+}
+
+.bg-color {
+    background-color: #FFF8F3;
+
+}
+
+.link-text {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
 .btn {
     color: #fff;
     background-color: #FD6E0A;
@@ -32,11 +49,22 @@
     cursor: pointer;
 }
 
+/*header*/
+.header {
+    padding-top: 30px;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    ;
+    margin-bottom: 10px;
+    height: auto;
+}
+
 .main-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 25px 200px;
+    margin: 0px 200px;
 }
 
 .child-navbar {
@@ -66,4 +94,44 @@
 
 .custom-letter {
     color: #FD6E0A;
+}
+
+
+/*banner style*/
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25px 0 215px;
+}
+
+.banner-content-cotainer {
+    max-width: 400px;
+}
+
+.first-text {
+    font-size: 30px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.second-text {
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.third-text {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+
+.banner-profile {
+    width: 584px;
+    height: 676px;
 }

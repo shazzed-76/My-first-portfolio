@@ -204,6 +204,37 @@ main section {
     padding: 20px;
 }
 
+/*Resume section style*/
 .section-description {
     padding: 0 70px;
+}
+
+.resume-section {
+    display: flex;
+    gap: 30px;
+}
+
+.resume-section-title {
+    margin-bottom: 80px;
+}
+
+.resume-section-parent-div-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.education-section-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.education-section-sub-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.education-description {
+    font-size: 14px;
+    font-weight: 400;
 }

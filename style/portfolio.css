@@ -238,3 +238,28 @@ main section {
     font-size: 14px;
     font-weight: 400;
 }
+
+/* Footer section style */
+footer {
+    display: flex;
+    padding: 120px 230px;
+    gap: 100px;
+}
+
+
+.footer-colunm {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    width: 100%;
+    padding: 20px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 20px;
+}
